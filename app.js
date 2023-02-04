@@ -21,7 +21,7 @@ client.on('message',  async message => {
 const media = await MessageMedia.fromUrl('https://miro.medium.com/max/1400/1*4NhFKMxr-qXodjYpxtiE0w.gif');chat.sendMessage(media);
 		message.reply('You are verifed now \n for send a message you need to type :- !send');
 	}
-    if(message
+    
     
 message.reply(' Or Hey there you must verify your are a human . \n for verification you need type !verify');
 });
